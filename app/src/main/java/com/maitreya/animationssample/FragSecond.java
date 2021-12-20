@@ -33,5 +33,19 @@ public class FragSecond extends Fragment {
                 ((MainActivity)getActivity()).replaceFragment(new FragFirst(), 2);
             }
         });
+        Button r = getActivity().findViewById(R.id.frag2Trash);
+        r.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                ((MainActivity)getActivity()).replaceFragment(new FragFirst(), 3);
+            }
+        });
+        Button e = getActivity().findViewById(R.id.frag2Ninety);
+        e.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                ((MainActivity)getActivity()).replaceFragment(new FragFirst(), 4);
+            }
+        });
     }
 }

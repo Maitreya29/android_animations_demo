@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/GitHubRepos/android_animations_demo/app/src/main/res/layout/fragment_frag_first.xml" value="0.33" />
+        <entry key="..\:/GitHubRepos/android_animations_demo/app/src/main/res/layout/fragment_frag_second.xml" value="0.20260416666666667" />
         <entry key="..\:/Users/maitr/AndroidStudioProjects/AnimationsSample/app/src/main/res/layout/activity_main.xml" value="0.2907608695652174" />
         <entry key="..\:/Users/maitr/AndroidStudioProjects/AnimationsSample/app/src/main/res/layout/fragment_frag_first.xml" value="0.2907608695652174" />
         <entry key="..\:/Users/maitr/AndroidStudioProjects/AnimationsSample/app/src/main/res/layout/fragment_frag_second.xml" value="0.20364583333333333" />

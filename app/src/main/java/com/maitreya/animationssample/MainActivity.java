@@ -32,6 +32,10 @@ public class MainActivity extends AppCompatActivity {
             fragmentTransaction.setCustomAnimations(R.anim.enterx, R.anim.exitx);
         if(Axis == 2)
             fragmentTransaction.setCustomAnimations(R.anim.entery, R.anim.exity);
+        if(Axis == 3)
+            fragmentTransaction.setCustomAnimations(R.anim.enterx, R.anim.exittrash);
+        if(Axis == 4)
+            fragmentTransaction.setCustomAnimations(R.anim.enter90, R.anim.exit90);
         fragmentTransaction.replace(R.id.fL, frag);
         fragmentTransaction.commit();
     }

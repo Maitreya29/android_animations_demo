@@ -7,6 +7,11 @@
     android:gravity="center"
     tools:context=".FragSecond">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Simple"/>
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -18,4 +23,21 @@
         android:layout_height="wrap_content"
         android:text="Animate on Y Axis"
         android:id="@+id/frag2YAxis"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Animate 90-degree rotation"
+        android:id="@+id/frag2Ninety"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Advanced"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Animate slide down"
+        android:id="@+id/frag2Trash"/>
 </LinearLayout>
